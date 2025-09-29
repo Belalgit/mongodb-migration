@@ -14,3 +14,7 @@ Save as: dump_example_db.sh
 # Command:
 1. sudo chmod +x dump_example_db.sh
 2. sudo ./dump_example_db.sh
+
+
+🚀 Restore Script (Cluster2 → DB2)
+Save as: restore_example_db.sh
