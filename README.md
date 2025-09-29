@@ -21,7 +21,7 @@ Save as: restore_example_db.sh
 4. sudo ./restore_example_db.sh      # restore DB1 to DB2 of Cluster2
 
 
-⚠️ Notes & Best Practices
+# ⚠️ Notes & Best Practices
 Replace <Cluster1-User> / <Cluster1-Password> and <Cluster2-User> / <Cluster2-Password> with actual Atlas credentials.
 **--drop** ensures collections are replaced. Remove it if you want to **merge data** instead of overwriting.
 Use a **dedicated migration user** in Atlas with readWrite and backup roles.
