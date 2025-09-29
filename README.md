@@ -5,6 +5,7 @@ Install MongoDB Database Tools in **Ubuntu Server**
 
 📂 Directory Structure
 Backups will be stored under:
+
 /var/backups/mongodb/
    ├── example-db_dump/
    │    └── example-db/   # dump folder
