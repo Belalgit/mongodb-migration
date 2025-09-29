@@ -26,7 +26,7 @@ Save as: restore_example_db.sh
 Replace <Cluster1-User> / <Cluster1-Password> and <Cluster2-User> / <Cluster2-Password> with actual Atlas credentials.
 **--drop** ensures collections are replaced. Remove it if you want to **merge data** instead of overwriting.
 Use a **dedicated migration user** in Atlas with readWrite and backup roles.
-Allow the Ubuntu Server IP in MongoDB Atlas Network Access.
+Allow the Ubuntu Server IP in MongoDB Atlas **Network Access**.
 For large datasets, run with screen or tmux to avoid disconnection.
-Always test restore on a **staging cluster** before production migration.
+Always test restore on a **staging cluster** before migrating to production.
 
