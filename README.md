@@ -7,11 +7,12 @@ Install MongoDB Database Tools
 📂 Directory Structure
 Backups will be stored under:
 /var/backups/mongodb/
-   ├── intercity_core_db_dump/
-   │    └── intercity-core-db/   # dump folder
+   ├── example-db_dump/
+   │    └── example-db/   # dump folder
 
 📦 Dump Script (Cluster1 → DB1)
-Save as: dump_intercity_core_db.sh
+Save as: dump_example_db.sh
 
 # Command:
-sudo chmod +x dump_intercity_core_db.sh
+sudo chmod +x dump_example_db.sh
+sudo ./dump_example_db.sh
