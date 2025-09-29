@@ -8,7 +8,7 @@ Backups will be stored under:
 
 /var/backups/mongodb/
    ├── example-db_dump/
-   │    └── example-db/   # dump folder
+      │── example-db/   # dump folder
 
 📦 Dump Script (Cluster1 → DB1)
 Save as: dump_example_db.sh
