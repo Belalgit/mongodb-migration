@@ -14,7 +14,7 @@ Backups will be stored under:
 1. dump_example_db.sh
 
 🚀 Restore Script (Cluster2 → DB2)
-2. restore_example_db.sh
+1. restore_example_db.sh
 
 # Command:
 1. sudo chmod +x dump_example_db.sh
