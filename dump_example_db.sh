@@ -11,11 +11,11 @@ mkdir -p "$BACKUP_DIR"
 # Database name
 DB_NAME="example-db"
 
-echo "📦 Dumping database: $DB_NAME ..."
+echo "Dumping database: $DB_NAME ..."
 mongodump \
   --uri="$MONGO_URI/$DB_NAME" \
   --gzip \
   --out="$BACKUP_DIR" \
   --authenticationDatabase admin
 
-echo "✅ Backup completed. Dump is in: $BACKUP_DIR"
+echo "Backup completed. Dump is in: $BACKUP_DIR"
