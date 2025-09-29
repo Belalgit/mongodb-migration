@@ -14,5 +14,5 @@ Backups will be stored under:
 Save as: dump_example_db.sh
 
 # Command:
-sudo chmod +x dump_example_db.sh
-sudo ./dump_example_db.sh
+1. sudo chmod +x dump_example_db.sh
+2. sudo ./dump_example_db.sh
