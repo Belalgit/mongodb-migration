@@ -1,8 +1,8 @@
 # mongodb-migration
 
 🖥️ Environment Setup
-Install MongoDB Database Tools
-    ✅ Verify **mongodump** and **mongorestore** are available.
+Install MongoDB Database Tools in Ubuntu Server
+✅ Verify **mongodump** and **mongorestore** are available.
 
 📂 Directory Structure
 Backups will be stored under:
