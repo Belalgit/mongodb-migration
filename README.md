@@ -16,7 +16,7 @@ Save as: restore_example_db.sh
 
 # Command:
 1. sudo chmod +x dump_example_db.sh
-2. sudo ./dump_example_db.sh         # dump DB1 from Cluster1
+2. sudo ./dump_example_db.sh         **dump DB1 from Cluster1**
 3. sudo chmod +x restore_example_db.sh
 4. sudo ./restore_example_db.sh      # restore DB1 to DB2 of Cluster2
 
